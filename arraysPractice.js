@@ -105,7 +105,15 @@ var getRandomArbitrary = function() {
 
   //Code Here
 
-
+var finder = arr => {
+  var randall = getRandomArbitrary();
+  for(let i = 0; i < arr.length; i++) {
+    if(arr[i] === randall){
+      return true;
+    }
+  }
+  return false;
+}
 
 
 //Next Problem
