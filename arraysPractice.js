@@ -62,9 +62,9 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
   //Code Here
 
 
+var evenFinder = nums => nums = nums.filter( (num)=>num%2==0 );
 
-
-
+console.log(nums);
 
 
 
