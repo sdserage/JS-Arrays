@@ -211,6 +211,7 @@ for(var i = 0; i < num2; i++){
 
   //Code Here
 
+var longer = (arr1, arr2) => arr1.length > arr2.length ? arr1 : arr2;
 
 /*
 As a continuation of the previous problem, write another function called 'both'.
