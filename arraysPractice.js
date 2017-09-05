@@ -225,7 +225,15 @@ Example: var arr1 = [1,2,3,4]; var arr2 = [2,4,5,6]; newArray // [2,4]
 
   //Code Here
 
-
+var both = (arr1, arr2) => {
+  let newArr = [];
+  for(let i = 0; i < arr1.length; i++){
+    if(arr2.includes(arr1[i])){
+      newArr.push(arr1[i]);
+    }
+  }
+  return newArr;
+}
 
 
 //NEXT PROBLEM
