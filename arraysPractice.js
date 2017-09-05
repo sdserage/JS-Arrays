@@ -273,13 +273,20 @@ sure that it's equal to 4. */
 
   //Code Here
 
+devMountainEmployees.push(tyler, cahlan, ryan, colt);
+console.log(devMountainEmployees.length);
+
 /*Now let's say Cahlan has a mental breakdown and has to take a leave of absence to 'find himself'.
 Loop through your devMountainEmployees until you find cahlan, then remove him from the array.*/
 
   //Code Here
 
 
-
+for(let i = devMountainEmployees.length - 1; i >= 0; i--){
+  if(devMountainEmployees[i].name === "Cahlan"){
+    devMountainEmployees.splice(i,1);
+  }
+}
 
 //NEXT PROBLEM
 
