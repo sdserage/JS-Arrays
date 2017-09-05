@@ -89,6 +89,7 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 
 
   //Code Here
+var divider = numbersArray => [numbersArray.filter( (num)=>num%2==0), numbersArray.filter( (num)=>num%2!=0)];
 
 
 //Next Problem
