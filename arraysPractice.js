@@ -6,6 +6,7 @@ var arr = [10,20,30];
 
   //Code Here
 
+var first = (arr) => arr[0];
 
 //Next problem
 
@@ -48,7 +49,7 @@ var nums = [1,2,3,6,22,98,45,23,22,12];
 
 
 
-  
+
 
 
 
