@@ -18,6 +18,7 @@ var arr = [40,50,60];
 
   //Code Here
 
+var last = (arr) => arr[arr.length - 1];
 
 //Next Problem
 
