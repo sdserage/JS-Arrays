@@ -28,6 +28,13 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 
   //Code Here
 
+var looper = (family) => {
+  for(member in family){
+    alert(family[member]);
+  }
+}
+
+
 
 //Next problem
 
